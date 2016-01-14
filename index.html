@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                <style type="text/css">
+                body{
+                  padding: 10%;
+                }
+                #myCarousel{
+                    height: inherit;
+                    
+                }
+        .carousel-inner .item {
+          
+            -webkit-transition:.1s;
+            -moz-transition:.1s;
+            transition:.1s;
+            
+        }
+
+      
+        </style>
+    </head>
+    <body>
+        <div id="myCarousel"class="carousel slide" data-ride="carousel">
+            
+
+            
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                             
+                                  
+
+                                  <div class="carousel-inner" role="listbox">
+                                 
+
+
+                                      <div id="i1" class="item active" >
+
+                                          <img class="img-responsive "src="img/1.jpg" >
+                                      </div>
+
+
+                                      <div id="i2" class="item" >
+                                            <img class="img-responsive "src="img/5.jpg">
+                                      </div>
+                                      <div id="i3" class="item" >
+                                          <img class="img-responsive "src="img/2.jpg">
+                                      </div>
+                                       <div id="i4" class="item" >
+                                          <img class="img-responsive "src="img/3.jpg">
+                                      </div>
+                                       <div id="i5" class="item" >
+                                          <img class="img-responsive "src="img/4.jpg">
+                                      </div>
+                                
+                                  </div>
+
+                               
+                                      <span class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                      </span>
+                                      <span class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                      </span>
+
+                    </div>
+        <!--
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>-->
+        <script type="text/javascript" src="carousel-swipe.js"></script>
+        <script type="text/javascript">
+        $( ".carousel" ).carousel({ interval: false ,  });
+        </script>
+    </body>
+</html>
